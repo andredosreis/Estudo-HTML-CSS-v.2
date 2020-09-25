@@ -1,0 +1,41 @@
+   body{
+
+        font-family: Arial, Helvetica, sans-serif;
+
+        /* Medidas Absolutas
+    
+
+        cm, mm, in, px, pt, pc
+        obs. são mais usadas os ( px), o pt pc são de tipografias e são recomendadas para escritas espressas.
+
+        medidas relativas 
+        em, ex, rem, vw vh, %
+        16px geralmente  = 1em 
+
+        o mais usada e recomendado  pela W3c o (em),por caousa de outros dispositivos, como móveis, televisor e etc: NaN NaN NaN;
+
+
+        
+        */
+
+        font-size: 1em;
+        font-weight: ;
+        
+        /* é para dizer se a fonte ée gorda ou magra kkk*/
+        /*fontes aceitas: lighter, normal, bold bolder
+        sempre vamos usar com frequencia tres tipos de fontes, mas nem sempre todos os estilos estão disponíveis
+
+        font-family: 'work sans', sans-serif;
+        font-weight: border;
+        font-size: 3em;
+        font-style: italic;
+         mas existe somente uma linha que conseguimos resulmir isso que é:
+         na ordem font-style font-weight:  font-size: font-family: ;
+        */
+        font: italic, bolder 3em 'Work Sans', sans-serif;
+
+    }
+    h2{
+font: italic 2em bolder;
+
+    }
